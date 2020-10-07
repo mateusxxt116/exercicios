@@ -1,0 +1,15 @@
+class Bola:
+    cor: str
+    cir: float
+    material: str
+    
+    def atributos(self,cor,cir,material):
+        self.cor = cor
+        self.cir = cir
+        self.material = material
+        
+    def metodos(self,trocarCor, mostrarCor):
+        self.trocarCor = trocarCor
+        self.mostrarCor = mostrarCor
+        
+                
