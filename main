@@ -1,0 +1,25 @@
+from classe import Bola
+
+b = Bola()
+
+b.cor = input('Digite a cor da bola: ')
+b.cir = float(input('Digite a circunferencia da bola: '))
+b.material = input('A bola é feita de qual material? ')
+b.cir
+print('''
+      cor = {}
+      circunferencia = {}
+      material = {}
+      '''.format(b.cor,b.cir,b.material))
+
+print('Deseja alterar a cor da bola? ')
+c = input('-> ')
+
+if c == 's' or c == 'S':
+    b.trocarCor = input('Digite a nova cor: ')
+    print('''
+      cor = {}
+      circunferencia = {}
+      material = {}
+      '''.format(b.trocarCor,b.cir,b.material))
+    
